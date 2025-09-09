@@ -5,9 +5,9 @@ local UserInputService: UserInputService = game:GetService("UserInputService")
 
 GetIcon = function(i)
 	if type(i) == 'string' and not i:find('rbxassetid://') then
-		return "rbxassetid://".. i
+		return "rbxassetid://138809274436722"
 	elseif type(i) == 'number' then
-		return "rbxassetid://".. i
+		return "rbxassetid://138809274436722"
 	else
 		return i
 	end
